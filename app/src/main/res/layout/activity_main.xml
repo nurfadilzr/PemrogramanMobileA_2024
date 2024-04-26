@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/skyblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Dzikir dan Doa"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/bg_trans"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/card" />
+
+    <Button
+        android:id="@+id/buttondoa"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/bg_trans"
+        android:layout_alignTop="@id/bg_trans"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="20dp"
+        android:text="Kumpulan Doa Harian"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/skyblue"/>
+
+    <Button
+        android:id="@+id/buttonzikirpagi"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttondoa"
+        android:layout_alignTop="@id/bg_trans"
+        android:layout_alignEnd="@id/bg_trans"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="57dp"
+        android:text="Dzikir Pagi"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/skyblue"/>
+
+    <Button
+        android:id="@+id/buttonzikirpetang"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonzikirpagi"
+        android:layout_alignTop="@id/bg_trans"
+        android:layout_alignEnd="@id/bg_trans"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dzikir Petang"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/skyblue"/>
+
+</RelativeLayout>

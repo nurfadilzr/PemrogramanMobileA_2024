@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoaDanZikir"
+        tools:targetApi="31">
+        <activity
+            android:name=".DzikirPetangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DzikirPagiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dzikir_pagi"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.KumpulanDoaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_kumpulan_doa"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.TurunHujanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_turun_hujan"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.SesudahMakanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sesudah_makan"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.MasukMasjidActivity"
+            android:exported="false"
+            android:label="@string/title_activity_masuk_masjid"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.LailatulQadrActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lailatul_qadr"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.KeluarWCActivity"
+            android:exported="false"
+            android:label="@string/title_activity_keluar_wcactivity"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.MasukWCActivity"
+            android:exported="false"
+            android:label="@string/title_activity_masuk_wcactivity"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.DoaOrtuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_ortu"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.BangunTidurActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bangun_tidur"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.DuniaAkhiratActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dunia_akhirat"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".doa.DoaMakanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_makan"
+            android:theme="@style/Theme.DoaDanZikir" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout"
+    android:background="@color/biruBg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/skyblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kumpulan Doa Harian"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="20dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp">
+
+                <TextView
+                    android:id="@+id/doa_akhirat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dunia Akhirat"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_keduaortu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Untuk Kedua Orang tua"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_sblmmakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sebelum Makan"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_stlhmkn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sesudah Makan"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_bgntdr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bangun Tidur"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_mskwc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masuk Kamar Mandi"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_outwc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keluar Kamar Mandi"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_trnhjn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Turun Hujan"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_lail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Malam Lailatul Qadr"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_doa"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/doa_mskmasjid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masuk Masjid"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/skyblue"
+                android:layout_gravity="start"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
